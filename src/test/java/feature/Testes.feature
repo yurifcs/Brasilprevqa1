@@ -17,7 +17,7 @@ Feature: Testes API Brasilprev
     Then Retorna codigo 400 e mensagem "Já existe pessoa cadastrada com o CPF..."
 
   Scenario: Não deve ser possível salvar duas pessoas com o mesmo telefone
-    Given Informo no Body do Request valor de Telegone já cadastrados no bancoC
+    Given Informo no Body do Request valor de Telefone já cadastrados no bancoC
     Then Retorna codigo 400 e mensagem ""Já existe pessoa cadastrada com o Telefone..."
 
   Scenario: Não deve ser possível salvar pessoas informando valores maiores que parametrizado
